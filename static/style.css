@@ -1,0 +1,40 @@
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+/* Estilos para los filtros avanzados */
+.card-header.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Mejoras en la tabla */
+.table th {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Estilos para los botones de acción */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .card-body .row > div {
+        margin-bottom: 1rem;
+    }
+    
+    .card-body .row > div:last-child {
+        margin-bottom: 0;
+    }
+}

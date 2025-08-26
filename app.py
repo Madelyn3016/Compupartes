@@ -6,7 +6,7 @@ from bson.objectid import ObjectId
 app = Flask(__name__)
 
 # Conexión a MongoDB
-mongo_uri = "mongodb+srv://admin:database1@cluster0.an31ypx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+mongo_uri = ""
 client = MongoClient(mongo_uri)
 db = client["compupartes"]
 partes_collection = db["partespc"]
